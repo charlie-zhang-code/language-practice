@@ -1,0 +1,32 @@
+# 忽略 JetBrains IDE 文件（递归应用于所有子目录）
+**/*.iml
+**/*.ipr
+**/*.iws
+**/.idea/
+**/.ideaLibSources/
+**/*.jar
+**/*.class
+**/Dockerfile.context/
+**/.out/
+**/.target/
+
+# 忽略 npm 依赖文件（递归应用于所有子目录）
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+
+# 其他可能的构建输出（递归应用于所有子目录）
+**/dist/
+**/build/
+**/out-tsc/
+
+# 其他可能的环境配置文件（递归应用于所有子目录）
+**/.env
+**/.env.development
+**/.env.production
+
+# macOS 系统文件（递归应用于所有子目录）
+**/.DS_Store
+
+# Windows 系统文件（递归应用于所有子目录）
+**/Thumbs.db
