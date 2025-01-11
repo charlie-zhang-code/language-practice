@@ -1,9 +1,11 @@
 package io.github.charlie.oop.clazz.demo01;
 
+import org.junit.Test;
+
 /**
  * @Author: Charlie Zhang(Github: @charlie-zhang-code)
  * @Date: 2025/1/11
- * @Description: TODO
+ * @Description: PhoneDemo类的测试类
  */
 public class PhoneTest {
     public static void main(String[] args) {
@@ -21,5 +23,11 @@ public class PhoneTest {
 
         // 再创建实例
         PhoneDemo phoneDemo2 = new PhoneDemo();
+    }
+
+    @Test
+    public void test() {
+        // 匿名对象
+        new PhoneDemo().call();
     }
 }
