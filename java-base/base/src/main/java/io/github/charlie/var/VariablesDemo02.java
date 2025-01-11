@@ -3,7 +3,7 @@ package io.github.charlie.var;
 /**
  * @Author: Charlie Zhang(Github: @charlie-zhang-code)
  * @Date: 2025/1/7
- * @Description: TODO
+ * @Description: 类变量
  */
 public class VariablesDemo02 {
     // 类变量（静态字段）
