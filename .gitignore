@@ -1,32 +1,58 @@
-# 忽略 JetBrains IDE 文件（递归应用于所有子目录）
-**/*.iml
-**/*.ipr
-**/*.iws
-**/.idea/
-**/.ideaLibSources/
-**/*.jar
-**/*.class
-**/Dockerfile.context/
-**/.out/
-**/.target/
+# 忽略全部的文件
+*
 
-# 忽略 npm 依赖文件（递归应用于所有子目录）
-**/node_modules/
-**/package-lock.json
-**/yarn.lock
+# 不忽略文件夹的结构
+!*/
 
-# 其他可能的构建输出（递归应用于所有子目录）
-**/dist/
-**/build/
-**/out-tsc/
+# 忽略所有的隐藏文件
+.*
 
-# 其他可能的环境配置文件（递归应用于所有子目录）
-**/.env
-**/.env.development
-**/.env.production
+# 禁止忽略以下面后缀的文件
 
-# macOS 系统文件（递归应用于所有子目录）
-**/.DS_Store
+# C/CPP
+!*.c
+!*.h
+!*.cpp
 
-# Windows 系统文件（递归应用于所有子目录）
-**/Thumbs.db
+# Java
+!*.xml
+!*.java
+!*.jsp
+
+# PHP与前端
+!*.php
+!*.html
+!*.css
+!*.js
+!*.ts
+!*.vue
+!*.yaml
+!*.yml
+
+# python
+!*.py
+!*.ipynb
+
+# SQL
+!*.sql
+
+# 测试
+!*.http
+
+# Docker、Cmake
+!Dockerfile
+!Makefile
+
+# 资源
+!*.txt
+!*.md
+!*.csv
+!*.xls
+!*.docx
+!*.doc
+!*.png
+!*.jpg
+!*.json
+
+# 不忽略git文件
+!.gitignore
